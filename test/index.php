@@ -8,4 +8,6 @@ use Notification\Email;
 $novoEmail = new Email();
 $novoEmail->sendEmail("Subject", "Content", "address@email.com", "Address Name");
 
+var_dump($novoEmail);
+
 ?>
